@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex {
+public class Ex4 {
     public static void main(String[] args) {
         //variaveis
         double n1,n2, media;
@@ -13,7 +13,8 @@ public class Ex {
         media = (n1 + n2) / 2;
         //decidir sobre média
         if (media >= 6) {
-            System.out.println( "Aprovado!");
+            //operador ternário (condição, resultado true, resultado false).
+            System.out.println(media >= 6 ? "Aprovado":"Reprovado");
         }
     }
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex {
+public class Ex2 {
     public static void main(String[] args) {
         //variaveis
         double n1,n2, media;
@@ -14,6 +14,9 @@ public class Ex {
         //decidir sobre média
         if (media >= 6) {
             System.out.println( "Aprovado!");
+        } 
+        else {
+            System.out.println("Reprovado!");
         }
     }
 }
